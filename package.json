@@ -1,0 +1,25 @@
+{
+  "name": "cypresssaucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open cypress": "npx cypress open",
+    "run tests": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasha-brankovic/cypressSauceDemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasha-brankovic/cypressSauceDemo/issues"
+  },
+  "homepage": "https://github.com/sasha-brankovic/cypressSauceDemo#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "typescript": "^4.9.4"
+  }
+}

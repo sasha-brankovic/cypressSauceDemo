@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://www.saucedemo.com/",
+  "defaultCommandTimeout": 10000,
+  "chromeWebSecurity": false,
+  "integrationFolder": "cypress/integration",
+  "viewportHeight": 1000,
+  "viewportWidth": 1280,
+  "env": {
+    "rightUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    "wrongUser": {
+      "username": "test",
+      "password": "test123"
+    }
+  }
+}
