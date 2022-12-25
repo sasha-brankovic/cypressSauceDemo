@@ -1,5 +1,6 @@
 const homePage = {
-    headerText: 'Products'
+    headerText: 'Products',
+    textOnItemAfterSelect: 'Remove'
 }
 
 export { homePage }

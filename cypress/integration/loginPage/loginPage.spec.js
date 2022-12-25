@@ -8,10 +8,9 @@ import { homePageElements } from '../../support/pom_objects/homePageElements'
 const rightUser = Cypress.env("rightUser")
 const wrongUser = Cypress.env("wrongUser")
 
-describe ('test login page', () => {
+describe ('Test various cases on Login Page', () => {
     beforeEach(() => {
         cy.visit('/')
-        
     })
 
     it('Do login with wrong username', () => {

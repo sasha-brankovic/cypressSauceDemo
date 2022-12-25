@@ -14,5 +14,13 @@
       "username": "test",
       "password": "test123"
     }
+  },
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "charts": true,
+    "overwrite": false,
+    "html": true,
+    "json": false,
+    "reportDir": "cypress/reports/mochawesome-report"
   }
 }

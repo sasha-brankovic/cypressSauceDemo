@@ -4,4 +4,8 @@ const loginPageErrors = {
     passwordRequired: 'Password is required'
 }
 
-export { loginPageErrors }
+const loginPage = {
+    buttonLogInValue: 'Login'
+}
+
+export { loginPageErrors, loginPage }
