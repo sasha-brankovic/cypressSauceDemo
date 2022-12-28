@@ -14,7 +14,7 @@ describe ('Test logout', () => {
 
     it('Do logout', () => {
         cy.get(homePageElements.burgerMenu).click()
-        cy.get(homePageElements.linkToLoginPage, {timeout: 5000}).click({force: true})
+        cy.get(homePageElements.linkToLoginPage).click({force: true})
         cy.get(logInPageElements.signIn).should('have.value', loginPage.buttonLogInValue)
     })
 

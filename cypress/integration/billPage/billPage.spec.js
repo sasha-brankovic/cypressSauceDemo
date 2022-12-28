@@ -11,7 +11,7 @@ describe('Test bill page', () => {
         cy.login(rightUser.username, rightUser.password)
         cy.addItemsToCart()
     })
-    it('Compare Sum of all selected items and Total', () => {
+    it('Compare Sum of all selected items to Total', () => {
         let unfilteredSumOfTotal = ''
         let unfilteredArrayOfTotal = []
         let calculatedTotal = 0
